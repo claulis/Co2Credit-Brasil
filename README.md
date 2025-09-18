@@ -1,8 +1,4 @@
 # Co2Credit-
-Claro! Vamos construir juntos a **arquitetura completa de um sistema básico de criação de créditos de carbono em blockchain**, totalmente funcional, com deploy em **testnet pública** (Polygon Mumbai), e **acessível para qualquer pessoa testar**.
-
----
-
 # 🌿 ARQUITETURA DO SISTEMA: “CarbonTrack Brasil”
 
 ## 🎯 OBJETIVO
