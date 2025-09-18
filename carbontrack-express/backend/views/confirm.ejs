@@ -1,0 +1,16 @@
+<% include('layouts/main') %>
+
+<h2>✍️ Confirme a Transação no MetaMask</h2>
+<p>Conecte sua carteira e assine a transação abaixo.</p>
+
+<div id="status">Aguardando conexão com MetaMask...</div>
+
+<script>
+    const action = '<%= action %>';
+
+    const data = <%- JSON.stringify(data) %>;
+    const contractAddress = '<%= contractAddress %>';
+    const abi = <%- abi %>;
+
+    initWallet(action, data, contractAddress, abi);
+</script>

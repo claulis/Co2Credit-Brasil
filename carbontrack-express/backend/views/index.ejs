@@ -1,0 +1,11 @@
+<% include('layouts/main') %>
+
+<h2>📊 Painel Inicial</h2>
+<p>Total de créditos emitidos: <strong><%= totalSupply %></strong></p>
+
+<a href="/issue"><button>Emitir Novo Crédito</button></a>
+<a href="/credits"><button>Ver Meus Créditos</button></a>
+
+<% if (error) { %>
+    <p style="color: red;">Erro: <%= error %></p>
+<% } %>
