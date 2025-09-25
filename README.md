@@ -1,3 +1,13 @@
+[![Ethereum](https://img.shields.io/badge/Ethereum-Visit%20Site-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)](https://ethereum.org/pt-br/)
+[![Solidity](https://img.shields.io/badge/Solidity-Blockchain%20Smart%20Contracts-363636?style=flat-square&logo=solidity&logoColor=white)](https://docs.soliditylang.org/)[![Powered by Remix](https://img.shields.io/badge/Powered_by-Remix_IDE-2E2E2E?style=flat-square&logo=ethereum&logoColor=white)](https://remix.ethereum.org/)
+
+
+
+[![Semana de Inovação](https://img.shields.io/badge/Semana%20de%20Inovação-ENAP-FF6B35?style=flat-square&logo=book-open&logoColor=FF6B35)](https://semanadeinovacao.enap.gov.br/)
+[![Enap](https://img.shields.io/badge/Enap-Portal%20Oficial-024248?style=flat-square&logo=book-open&logoColor=white)](https://www.enap.gov.br/)
+
+
+
 **Prezado aluno ou colega,**
 
 Que prazer recebê-lo com essa solicitação tão relevante e atual! Como professor especializado em inovação tecnológica e sustentabilidade, fico entusiasmado em auxiliá-lo na preparação de uma oficina sobre blockchain e inovação ambiental. O tema é especialmente pertinente para funcionários públicos brasileiros, dado o contexto nacional de desafios ambientais — como o desmatamento na Amazônia, a transição para uma economia verde e a necessidade de transparência em políticas públicas — aliado ao potencial transformador da blockchain em áreas como rastreabilidade, governança e eficiência administrativa. Vou estruturá-la de forma didática e prática, como faria em uma aula universitária, para que você possa adaptá-la facilmente.
