@@ -5,6 +5,8 @@
 
 [![Semana de Inovação](https://img.shields.io/badge/Semana%20de%20Inovação-ENAP-FF6B35?style=flat-square&logo=book-open&logoColor=FF6B35)](https://semanadeinovacao.enap.gov.br/)
 [![Enap](https://img.shields.io/badge/Enap-Portal%20Oficial-024248?style=flat-square&logo=book-open&logoColor=white)](https://www.enap.gov.br/)
+![Visualizações](https://komarev.com/ghpvc/?username=claulis&label=Visualiza%C3%A7%C3%B5es&color=blue&style=flat-square)
+
 
 
 
