@@ -1,16 +1,12 @@
 
-<img width="287" height="82" alt="image" src="https://github.com/user-attachments/assets/b07de881-e527-42c1-9a4a-8e90b634a796" />   
+<div style="background:green;"><img width="287" height="82" alt="image"  src="https://github.com/user-attachments/assets/b07de881-e527-42c1-9a4a-8e90b634a796" />   </div> 
+
 
 # Blockchain e Contratos Inteligentes para Inovação Ambiental
-|
 
-
-
-
-[![Ethereum](https://img.shields.io/badge/Ethereum-Visit%20Site-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)](https://ethereum.org/pt-br/)
-[![Solidity](https://img.shields.io/badge/Solidity-Blockchain%20Smart%20Contracts-363636?style=flat-square&logo=solidity&logoColor=white)](https://docs.soliditylang.org/)[![Powered by Remix](https://img.shields.io/badge/Powered_by-Remix_IDE-2E2E2E?style=flat-square&logo=ethereum&logoColor=white)](https://remix.ethereum.org/)
-
-
+| Stack | Resumo | Contatos |
+|-------|--------| --------  |
+| [![Ethereum](https://img.shields.io/badge/Ethereum-Visit%20Site-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)](https://ethereum.org/pt-br/) [![Solidity](https://img.shields.io/badge/Solidity-Blockchain%20Smart%20Contracts-363636?style=flat-square&logo=solidity&logoColor=white)](https://docs.soliditylang.org/) [![Powered by Remix](https://img.shields.io/badge/Powered_by-Remix_IDE-2E2E2E?style=flat-square&logo=ethereum&logoColor=white)](https://remix.ethereum.org/) | Oficina sobre fundamentos da blockchain, contratos inteligentes e aplicações inovadoras para sustentabilidade ambiental no setor público brasileiro. | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cláudio%20Ulisse-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/claudioulisse)
 
 [![Semana de Inovação](https://img.shields.io/badge/Semana%20de%20Inovação-ENAP-FF6B35?style=flat-square&logo=book-open&logoColor=FF6B35)](https://semanadeinovacao.enap.gov.br/)
 [![Enap](https://img.shields.io/badge/Enap-Portal%20Oficial-024248?style=flat-square&logo=book-open&logoColor=white)](https://www.enap.gov.br/)
