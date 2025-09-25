@@ -1,3 +1,12 @@
+
+<img width="287" height="82" alt="image" src="https://github.com/user-attachments/assets/b07de881-e527-42c1-9a4a-8e90b634a796" />   
+
+# Blockchain e Contratos Inteligentes para Inovação Ambiental
+|
+
+
+
+
 [![Ethereum](https://img.shields.io/badge/Ethereum-Visit%20Site-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)](https://ethereum.org/pt-br/)
 [![Solidity](https://img.shields.io/badge/Solidity-Blockchain%20Smart%20Contracts-363636?style=flat-square&logo=solidity&logoColor=white)](https://docs.soliditylang.org/)[![Powered by Remix](https://img.shields.io/badge/Powered_by-Remix_IDE-2E2E2E?style=flat-square&logo=ethereum&logoColor=white)](https://remix.ethereum.org/)
 
