@@ -205,6 +205,89 @@ contract AntiGreenwashing {
 Isso promove transparência em setores como mineração, evitando greenwashing como em casos da Vale S.A. 
 
 
+### 5. Smart Contract para Aplicação e Cobrança de Multas Ambientais
+
+O contrato simula a aplicação automática de multas por violações ambientais, como emissões excessivas ou descarte irregular de resíduos. Ele verifica condições via oráculo, aplica a multa proporcional (baseada em valores da Lei nº 9.605/1998, como multas de R$ 50 a R$ 50 milhões, dependendo da gravidade) e permite pagamento com redução por conformidade voluntária.
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract MultasAmbientais {
+    address public fiscalizador; // Fiscalizador ambiental (ex.: IBAMA ou órgão estadual)
+    mapping(address => uint256) public multasPendentes; // Multas pendentes por infrator (empresa ou indivíduo)
+    uint256 public valorMultaBase = 1000 ether; // Valor base da multa em wei (simulado; na prática, ajuste para R$ conforme Lei 9.605/1998)
+    uint256 public limiteViolacao = 50; // Limite de violação (ex.: emissões em toneladas ou área desmatada em hectares)
+    bool public violacaoDetectada; // Status de violação verificado via oráculo
+
+    event MultaAplicada(address infrator, uint256 valor, string motivo);
+    event PagamentoEfetuado(address infrator, uint256 valorPago);
+    event ReducaoConcedida(address infrator, uint256 reducao);
+
+    constructor() {
+        fiscalizador = msg.sender;
+        violacaoDetectada = false;
+    }
+
+    // Função para verificar violação ambiental via oráculo (ex.: dados de satélite INPE ou sensores IoT)
+    function verificarViolacao(address infrator, uint256 nivelMedido, string memory descricaoViolacao) public {
+        require(msg.sender == fiscalizador, "Apenas o fiscalizador pode verificar violacoes");
+        if (nivelMedido > limiteViolacao) {
+            violacaoDetectada = true;
+            uint256 valorMulta = valorMultaBase * (nivelMedido / limiteViolacao); // Multa proporcional à gravidade, conforme art. 3º da Lei 9.605/1998
+            multasPendentes[infrator] += valorMulta;
+            emit MultaAplicada(infrator, valorMulta, descricaoViolacao); // Ex.: "Desmatamento ilegal na Amazonia"
+        } else {
+            violacaoDetectada = false;
+        }
+    }
+
+    // Função para pagamento da multa com possível redução por correção voluntária (ex.: reflorestamento comprovado)
+    function pagarMulta() public payable {
+        uint256 multaDevida = multasPendentes[msg.sender];
+        require(multaDevida > 0, "Nenhuma multa pendente");
+        require(msg.value >= multaDevida, "Valor insuficiente para pagamento");
+
+        // Simulação de redução: se correção voluntária, reduzir em 20% (inspirado em mecanismos de leniência ambiental)
+        uint256 valorFinal = multaDevida;
+        if (verificarCorrecaoVoluntaria(msg.sender)) { // Função simulada; em produção, usar oráculo para prova de correção
+            uint256 reducao = (multaDevida * 20) / 100;
+            valorFinal -= reducao;
+            emit ReducaoConcedida(msg.sender, reducao);
+        }
+
+        require(msg.value >= valorFinal, "Valor insuficiente apos reducao");
+        multasPendentes[msg.sender] = 0;
+        payable(fiscalizador).transfer(valorFinal); // Transferência para o fiscalizador (ex.: fundo ambiental)
+        if (msg.value > valorFinal) {
+            payable(msg.sender).transfer(msg.value - valorFinal); // Devolução de excesso
+        }
+        emit PagamentoEfetuado(msg.sender, valorFinal);
+    }
+
+    // Função auxiliar simulada para verificar correção voluntária (ex.: comprovação de reflorestamento)
+    function verificarCorrecaoVoluntaria(address infrator) internal view returns (bool) {
+        // Em produção, integrar oráculo para dados reais do IBAMA
+        return true; // Simulação para fins educacionais
+    }
+
+    // Função para o fiscalizador retirar fundos acumulados (ex.: para Fundo Nacional do Meio Ambiente)
+    function retirarFundos() public {
+        require(msg.sender == fiscalizador, "Apenas o fiscalizador pode retirar fundos");
+        payable(fiscalizador).transfer(address(this).balance);
+    }
+}
+```
+
+#### Explicação das Funcionalidades Principais:
+- **Verificação Automatizada**: A função `verificarViolacao` usa dados externos para detectar infrações, aplicando multas proporcionais à gravidade, como previsto na Lei nº 9.605/1998 (arts. 2º a 6º). Isso poderia integrar com sistemas como o SISNAMA (Sistema Nacional do Meio Ambiente) para relatar violações em tempo real.
+- **Pagamento e Redução**: O pagamento é autoexecutável, com opção de redução por ações corretivas voluntárias, incentivando conformidade e alinhando-se a políticas de educação ambiental (art. 27 da Lei nº 9.605/1998).
+- **Transparência e Imutabilidade**: Eventos emitem registros públicos na blockchain, facilitando auditorias e combatendo corrupção em processos administrativos ambientais.
+- **Inovação no Contexto Brasileiro**: Em cenários como o monitoramento da Amazônia ou poluição industrial no Sudeste, esse contrato poderia reduzir o tempo de aplicação de multas (atualmente demorado devido a burocracia) e integrar com plataformas como o SINAFLOR (Sistema Nacional de Controle da Origem dos Produtos Florestais).
+
+
+
+
 
 
 
