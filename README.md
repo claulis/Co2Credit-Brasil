@@ -32,7 +32,7 @@ Nessa oficina iremos ver o que é uma blockchain, qual sua arquitetura, como fun
 ### 2. **Planejamento**
 Duração max: 2 horas
 
-- **Módulo 1: Fundamentos da Blockchain (30 minutos)**: O que é blockchain, suas características (descentralização, imutabilidade, transparência) e como difere de bancos de dados tradicionais. Sua estrutura e arquitetura.
+- [**Módulo 1: Fundamentos da Blockchain (30 minutos)**]: O que é blockchain, suas características (descentralização, imutabilidade, transparência) e como difere de bancos de dados tradicionais. Sua estrutura e arquitetura.
 - **Módulo 2: Ethereume Smart Contracts**: Ethereum, seu ecossistema, Smart Contrats, NFT, Dapps, DAO etc.
 - **Módulo 3: Programando a Inovação Ambiental (60 minutos)**: Aplicações globais e brasileiras, como:
   - Rastreabilidade em cadeias de suprimentos: No agronegócio, blockchain certifica práticas sustentáveis, rastreando origem de alimentos e reduzindo desmatamento ilegal. A Embrapa, por exemplo, explora blockchain para registrar dados em cadeias verdes da indústria sucroenergética, permitindo acesso seguro por todos os atores.
