@@ -129,3 +129,11 @@ Existem dezenas de "block explorers" gratuitos e confiáveis que rastreiam block
 | **BlockCypher**          | Bitcoin, Ethereum   | Estimativas de fees em tempo real; rápido para transações recentes. | [live.blockcypher.com/btc](https://live.blockcypher.com/btc/) |
 
 Ative o "Auto Refresh" ou "Live View" para ver blocos se formando. Para Ethereum, Etherscan é ótimo porque blocos são mais frequentes, facilitando a observação rápida.
+
+### 4.3 Quer minerar?
+
+Existe um software que facilita a mineração: o [NiceHash](https://www.nicehash.com/).
+O NiceHash não é uma pool de mineração tradicional, mas sim um mercado de poder de hash (hashrate marketplace), que atua como uma ponte entre mineradores e compradores de capacidade computacional. Em essência, ele permite que indivíduos vendam ou comprem poder de processamento para minerar criptomoedas, facilitando a democratização dessa atividade sem a necessidade de hardware próprio para todos os envolvidos.
+Essa plataforma foi lançada em 2014 e ganhou popularidade por sua simplicidade, especialmente após superar um hack notório em 2017. Hoje, em 2025, continua sendo uma das líderes em mineração em nuvem, com ferramentas como o NiceHash Miner e o EasyMining, que otimizam o processo para usuários iniciantes e avançados.
+
+Vai [aqui](https://www.nicehash.com/mining) para calcular sua estimativa de ganho.
