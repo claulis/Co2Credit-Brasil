@@ -1,6 +1,5 @@
 
-<div style="background:green;"><img width="287" height="82" alt="image"  src="https://github.com/user-attachments/assets/b07de881-e527-42c1-9a4a-8e90b634a796" />   </div> 
-
+<div style="background:green;"><img width="287" height="82" alt="image"  src="https://github.com/user-attachments/assets/b07de881-e527-42c1-9a4a-8e90b634a796" />   </div>
 
 # Blockchain e Contratos Inteligentes para Inovação Ambiental
 
@@ -12,16 +11,14 @@
 [![Enap](https://img.shields.io/badge/Enap-Portal%20Oficial-024248?style=flat-square&logo=book-open&logoColor=white)](https://www.enap.gov.br/)
 ![Visualizações](https://komarev.com/ghpvc/?username=claulis&label=Visualiza%C3%A7%C3%B5es&color=blue&style=flat-square)
 
-
-
-
 **Prezado aluno ou colega,**
 
 Dado o contexto nacional de desafios ambientais — como o desmatamento na Amazônia, a transição para uma economia verde e a necessidade de **transparência em políticas públicas** — aliado ao potencial transformador da blockchain em áreas como rastreabilidade, governança e eficiência administrativa, o tema é especialmente pertinente para funcionários públicos brasileiros.
 
 Nessa oficina iremos ver o que é uma blockchain, qual sua arquitetura, como funciona, o que são *Smart Contracts*(Contratos Inteligentes) e possíveis utilizações. E sim iremos progrmar um pouco.
 
-### 1. **Objetivos da Oficina**
+## 1. **Objetivos da Oficina**
+
 - **Objetivo Geral**: Apresentar como a blockchain pode impulsionar inovações ambientais no contexto brasileiro, promovendo transparência, eficiência e sustentabilidade em ações governamentais.
 - **Objetivos Específicos**:
   - Compreender os fundamentos da blockchain e sua relevância para questões ambientais.
@@ -29,19 +26,17 @@ Nessa oficina iremos ver o que é uma blockchain, qual sua arquitetura, como fun
   - Discutir desafios éticos, regulatórios e de implementação no setor público.
   - Estimular ideias para projetos inovadores em órgãos públicos, alinhados a agendas como o [Acordo de Paris](https://brasil.un.org/pt-br/88191-acordo-de-paris-sobre-o-clima).
 
-### 2. **Planejamento**
+## 2. **Planejamento**
+
 Duração max: 2 horas
 
-- [**Módulo 1: Fundamentos da Blockchain (30 minutos)**](): O que é blockchain, suas características (descentralização, imutabilidade, transparência) e como difere de bancos de dados tradicionais. Sua estrutura e arquitetura.
-- [**Módulo 2: Ethereume Smart Contracts**](ethereum.md): Ethereum, seu ecossistema, Smart Contrats, NFT, Dapps, DAO etc.
-- **Módulo 3: Programando a Inovação Ambiental (60 minutos)**: Aplicações globais e brasileiras, como:
+- [**Módulo 1: Fundamentos da Blockchain (30 minutos)**](/blockchain_geral.md): O que é blockchain, suas características (descentralização, imutabilidade, transparência) e como difere de bancos de dados tradicionais. Sua estrutura e arquitetura.
+- [**Módulo 2: Ethereume Smart Contracts**](/ethereum.md): Ethereum, seu ecossistema, Smart Contrats, NFT, Dapps, DAO etc.
+- [**Módulo 3: Programando a Inovação Ambiental (60 minutos)**](SmartContracts_Ambiente.md): Aplicações globais e brasileiras, como:
   - Rastreabilidade em cadeias de suprimentos: No agronegócio, blockchain certifica práticas sustentáveis, rastreando origem de alimentos e reduzindo desmatamento ilegal. A Embrapa, por exemplo, explora blockchain para registrar dados em cadeias verdes da indústria sucroenergética, permitindo acesso seguro por todos os atores.
   - Economia circular: Blockchain promove rastreabilidade em reciclagem e eliminação de resíduos, integrando atores socioeconômicos e ambientais no Brasil.
   - Contratações públicas sustentáveis: No setor público, blockchain aumenta transparência em licitações ambientais, como obras rodoviárias ecológicas, reduzindo corrupção e garantindo conformidade. Isso alinha com a modernização da administração pública brasileira.
   - Multas ambientais:
   - Mercado de carbono:
-- **Módulo 4: Desafios e Oportunidades (30 minutos)**: Abordar barreiras como regulação (ex.: Marco Legal das Criptomoedas no Brasil), custo de implementação e inclusão digital. 
+- **Módulo 4: Desafios e Oportunidades (30 minutos)**: Abordar barreiras como regulação (ex.: Marco Legal das Criptomoedas no Brasil), custo de implementação e inclusão digital.
 - **Encerramento (15 minutos)**: Q&A, avaliação (ex.: formulário simples) e chamada para ação (ex.: "Proponha um projeto blockchain no seu órgão").
-
-
-

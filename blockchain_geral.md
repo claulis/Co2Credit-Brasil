@@ -83,7 +83,7 @@ Vou sugerir **uma atividade simples e interativa** que você pode fazer em minut
 
 ### 4.1 Atividade Sugerida: "Monitore a Formação de Blocos do Bitcoin em Tempo Real" (Duração: 15-30 minutos)
 
-Essa atividade é para demonstrar o fluxo: transações → agrupamento → mineração/consenso → novo bloco. Você não precisa de software; basta um navegador web. 
+Essa atividade é para demonstrar o fluxo: transações → agrupamento → mineração/consenso → novo bloco. Você não precisa de software; basta um navegador web.
 
 O objetivo é observar como blocos "se formam" a cada ~10 minutos, visualizando transações sendo processadas e adicionadas à cadeia.
 
@@ -95,7 +95,7 @@ O objetivo é observar como blocos "se formam" a cada ~10 minutos, visualizando 
 **Passos da Atividade** (Faça isso em grupo ou sozinho para discutir observações):
 
 1. **Escolha uma Blockchain para Monitorar**: Comece com o Bitcoin, pois é simples e estável. (Para algo mais dinâmico, use Ethereum, que forma blocos a cada ~12 segundos.)
-   
+
 2. **Acesse um Block Explorer**: Vá para um site como o Mempool.space (para Bitcoin) ou Etherscan.io (para Ethereum). Esses sites mostram o mempool (fila de transações pendentes) e o último bloco em formação.
    - No Mempool.space: Clique em "Live" para ver transações chegando em tempo real.
    - No Etherscan: Vá para "Blocks" e ative o "Auto Refresh" para atualizações automáticas.
@@ -127,8 +127,6 @@ Existem dezenas de "block explorers" gratuitos e confiáveis que rastreiam block
 | **Etherscan.io**         | Ethereum            | Blocos em formação, gas prices, mempool; ideal para smart contracts. | [etherscan.io/blocks](https://etherscan.io/blocks) |
 | **Blockchair.com**       | Múltiplas (BTC, ETH, etc.) | Filtros avançados, API gratuita; compara blockchains. | [blockchair.com](https://blockchair.com/) |
 | **BlockCypher**          | Bitcoin, Ethereum   | Estimativas de fees em tempo real; rápido para transações recentes. | [live.blockcypher.com/btc](https://live.blockcypher.com/btc/) |
-
-Ative o "Auto Refresh" ou "Live View" para ver blocos se formando. Para Ethereum, Etherscan é ótimo porque blocos são mais frequentes, facilitando a observação rápida.
 
 ### 4.3 Quer minerar?
 
