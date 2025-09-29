@@ -30,13 +30,13 @@ Nessa oficina iremos ver o que é uma blockchain, qual sua arquitetura, como fun
 
 Duração max: 2 horas
 
+- **Apresentação**: breve apresentação pessoal**
 - [**Módulo 1: Fundamentos da Blockchain (30 minutos)**](/blockchain_geral.md): O que é blockchain, suas características (descentralização, imutabilidade, transparência) e como difere de bancos de dados tradicionais. Sua estrutura e arquitetura.
-- [**Módulo 2: Ethereume Smart Contracts**](/ethereum.md): Ethereum, seu ecossistema, Smart Contrats, NFT, Dapps, DAO etc.
-- [**Módulo 3: Programando a Inovação Ambiental (60 minutos)**](SmartContracts_Ambiente.md): Aplicações globais e brasileiras, como:
+- [**Módulo 2: Ethereume Smart Contracts (30 minutos)**](/ethereum.md): Ethereum, seu ecossistema, Smart Contrats, NFT, Dapps, DAO etc.
+- [**Módulo 3: Programando a Inovação Ambiental (40 minutos)**](SmartContracts_Ambiente.md): Aplicações globais e brasileiras, como:
   - Rastreabilidade em cadeias de suprimentos: No agronegócio, blockchain certifica práticas sustentáveis, rastreando origem de alimentos e reduzindo desmatamento ilegal. A Embrapa, por exemplo, explora blockchain para registrar dados em cadeias verdes da indústria sucroenergética, permitindo acesso seguro por todos os atores.
   - Economia circular: Blockchain promove rastreabilidade em reciclagem e eliminação de resíduos, integrando atores socioeconômicos e ambientais no Brasil.
   - Contratações públicas sustentáveis: No setor público, blockchain aumenta transparência em licitações ambientais, como obras rodoviárias ecológicas, reduzindo corrupção e garantindo conformidade. Isso alinha com a modernização da administração pública brasileira.
   - Multas ambientais:
   - Mercado de carbono:
-- **Módulo 4: Desafios e Oportunidades (30 minutos)**: Abordar barreiras como regulação (ex.: Marco Legal das Criptomoedas no Brasil), custo de implementação e inclusão digital.
-- **Encerramento (15 minutos)**: Q&A, avaliação (ex.: formulário simples) e chamada para ação (ex.: "Proponha um projeto blockchain no seu órgão").
+- [**Encerramento (20 minutos)**](https://forms.gle/GB3KzefuQH36DoLW9): Q&A, avaliação (ex.: formulário simples) e chamada para ação (ex.: "Proponha um projeto blockchain no seu órgão").

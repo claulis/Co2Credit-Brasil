@@ -1,5 +1,3 @@
-
-
 # O Ethereum e seu ecossistema
 
 O Ethereum é uma plataforma descentralizada baseada em blockchain que permite a criação e execução de *smart contracts* e aplicativos descentralizados
@@ -104,4 +102,4 @@ O Ethereum é a base para diversas aplicações inovadoras:
 3. **Complexidade de *smart contracts***: Bugs ou falhas no código podem levar a perdas financeiras significativas (ex.: o hack do DAO em 2016).
 4. **Consumo energético (pré-PoS)**: Embora o PoS tenha resolvido isso, o PoW era criticado por seu alto consumo de energia.
 
-Agora vamos programar um pouco. Vai 👉 [aqui]()
+Agora vamos programar um pouco. Vai 👉 [aqui](/smart_contracts.md)
