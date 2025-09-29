@@ -30,7 +30,7 @@ Nessa oficina iremos ver o que é uma blockchain, qual sua arquitetura, como fun
 
 Duração max: 2 horas
 
-- **Apresentação**: breve apresentação pessoal**
+- **Apresentação**: breve apresentação pessoal
 - [**Módulo 1: Fundamentos da Blockchain (30 minutos)**](/blockchain_geral.md): O que é blockchain, suas características (descentralização, imutabilidade, transparência) e como difere de bancos de dados tradicionais. Sua estrutura e arquitetura.
 - [**Módulo 2: Ethereume Smart Contracts (30 minutos)**](/ethereum.md): Ethereum, seu ecossistema, Smart Contrats, NFT, Dapps, DAO etc.
 - [**Módulo 3: Programando a Inovação Ambiental (40 minutos)**](SmartContracts_Ambiente.md): Aplicações globais e brasileiras, como:
