@@ -17,7 +17,7 @@
 
 **Prezado aluno ou colega,**
 
-Que prazer recebê-lo com essa solicitação tão relevante e atual! Como professor especializado em inovação tecnológica e sustentabilidade, fico entusiasmado em auxiliá-lo na preparação de uma oficina sobre blockchain e inovação ambiental. O tema é especialmente pertinente para funcionários públicos brasileiros, dado o contexto nacional de desafios ambientais — como o desmatamento na Amazônia, a transição para uma economia verde e a necessidade de transparência em políticas públicas — aliado ao potencial transformador da blockchain em áreas como rastreabilidade, governança e eficiência administrativa. Vou estruturá-la de forma didática e prática, como faria em uma aula universitária, para que você possa adaptá-la facilmente.
+Dado o contexto nacional de desafios ambientais — como o desmatamento na Amazônia, a transição para uma economia verde e a necessidade de **transparência em políticas públicas** — aliado ao potencial transformador da blockchain em áreas como rastreabilidade, governança e eficiência administrativa, o tema é especialmente pertinente para funcionários públicos brasileiros.
 
 Nessa oficina iremos ver o que é uma blockchain, qual sua arquitetura, como funciona, o que são *Smart Contracts*(Contratos Inteligentes) e possíveis utilizações. E sim iremos progrmar um pouco.
 
@@ -40,7 +40,7 @@ Duração max: 2 horas
   - Contratações públicas sustentáveis: No setor público, blockchain aumenta transparência em licitações ambientais, como obras rodoviárias ecológicas, reduzindo corrupção e garantindo conformidade. Isso alinha com a modernização da administração pública brasileira.
   - Multas ambientais:
   - Mercado de carbono:
-- **Módulo 4: Desafios e Oportunidades (30 minutos)**: Aborde barreiras como regulação (ex.: Marco Legal das Criptomoedas no Brasil), custo de implementação e inclusão digital. Encerre com visões futuras, como integração com IA para monitoramento ambiental.
+- **Módulo 4: Desafios e Oportunidades (30 minutos)**: Abordar barreiras como regulação (ex.: Marco Legal das Criptomoedas no Brasil), custo de implementação e inclusão digital. 
 - **Encerramento (15 minutos)**: Q&A, avaliação (ex.: formulário simples) e chamada para ação (ex.: "Proponha um projeto blockchain no seu órgão").
 
 
