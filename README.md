@@ -11,7 +11,7 @@
 [![Enap](https://img.shields.io/badge/Enap-Portal%20Oficial-024248?style=flat-square&logo=book-open&logoColor=white)](https://www.enap.gov.br/)
 ![Visualizações](https://komarev.com/ghpvc/?username=claulis&label=Visualiza%C3%A7%C3%B5es&color=blue&style=flat-square)
 
-**Prezado aluno ou colega,**
+**Prezado Servidor,**
 
 Dado o contexto nacional de desafios ambientais — como o desmatamento na Amazônia, a transição para uma economia verde e a necessidade de **transparência em políticas públicas** — aliado ao potencial transformador da blockchain em áreas como rastreabilidade, governança e eficiência administrativa, o tema é especialmente pertinente para funcionários públicos brasileiros.
 
