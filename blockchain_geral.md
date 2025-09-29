@@ -1,10 +1,13 @@
 # Funcionamento de uma Blockchain: Estrutura e Arquitetura
 
 Uma blockchain é uma tecnologia que permite registrar transações ou dados de forma **segura, imutável e descentralizada**.
-Basicamente é *"caderno digital coletivo"* mantido por milhares de computadores (chamados de "nós") espalhados pelo mundo,
+Basicamente é **"caderno digital coletivo"** ou *Distributed Ledger Technology (DLT)* mantido por milhares de computadores (chamados de "nós") espalhados pelo mundo,
 sem um dono central – como um Google Docs onde ninguém pode apagar ou alterar entradas antigas sem o acordo de todos.
-Ela foi inventada em 2008 por Satoshi Nakamoto para o Bitcoin, mas hoje é usada em criptomoedas, contratos inteligentes,
+Ela foi inventada em 2008 por Satoshi Nakamoto para o [Bitcoin](https://bitcoin.org/files/bitcoin-paper/bitcoin_pt_br.pdf), mas hoje é usada em criptomoedas, contratos inteligentes,
 rastreamento de suprimentos e até eleições digitais.
+
+![Estrutura Blockchain Fonte: https://www.creative-tim.com/blog/educational-tech/what-is-blockchain-technology-and-how-does-it-work/](https://www.creative-tim.com/blog/content/images/2022/08/blockchain-structure.jpg)
+
 
 ## 1. Como Funciona uma Blockchain? (Funcionamento Passo a Passo)
 
@@ -13,7 +16,7 @@ O funcionamento gira em torno de transações que são agrupadas em blocos, vali
 - **Passo 1: Criação de Transação**: Alguém (ex.: você) inicia uma ação, como transferir criptomoeda. Isso é assinado com uma chave privada (como uma senha criptografada) para provar autenticidade.
 - **Passo 2: Propagação na Rede**: A transação é enviada para a rede P2P, onde nós a recebem e verificam (ex.: se você tem saldo suficiente, evitando "gastar duas vezes" o mesmo dinheiro).
 - **Passo 3: Agrupamento em Bloco**: Transações válidas são agrupadas em um "bloco" por participantes especiais (mineradores ou validadores).
-- **Passo 4: Consenso e Validação**: A rede usa um mecanismo (ex.: Proof of Work) para concordar que o bloco é válido. Isso envolve resolver um puzzle computacional para "selar" o bloco.
+- **Passo 4: Consenso e Validação**: A rede usa um mecanismo (ex.: Proof of Work) para concordar que o bloco é válido. Isso envolve resolver um quebra-cabeça computacional para "selar" o bloco.
 - **Passo 5: Encadeamento e Distribuição**: O bloco é adicionado à cadeia, e todos os nós atualizam suas cópias. Qualquer alteração posterior seria detectada imediatamente.
 
 **Diagrama de Workflow: Fluxo Geral de Funcionamento**
@@ -33,6 +36,8 @@ O "Mempool" é como uma fila de tarefas pendentes em um sistema operacional.
 ## 2. Estrutura de uma Blockchain
 
 A estrutura é uma "cadeia de blocos" (daí o nome "blockchain"). Cada bloco é como um arquivo em um diretório encadeado.
+
+![Estrutura dos blocos. Fonte: https://blogct.creative-tim.com/blog/content/images/size/w1000/2022/08/blockchain-security.jpg](https://blogct.creative-tim.com/blog/content/images/size/w1000/2022/08/blockchain-security.jpg)
 
 - **Componentes de um Bloco**:
   - **Header (Cabeçalho)**: Metadados como versão, timestamp (data/hora), nonce (número aleatório para o puzzle), e o **hash do bloco anterior** – isso cria o encadeamento.
