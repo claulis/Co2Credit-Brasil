@@ -8,32 +8,7 @@ rastreamento de suprimentos e até eleições digitais.
 
 ![Estrutura Blockchain Fonte: https://www.creative-tim.com/blog/educational-tech/what-is-blockchain-technology-and-how-does-it-work/](https://www.creative-tim.com/blog/content/images/2022/08/blockchain-structure.jpg)
 
-
-## 1. Como Funciona uma Blockchain? (Funcionamento Passo a Passo)
-
-O funcionamento gira em torno de transações que são agrupadas em blocos, validadas por consenso e encadeadas. Vamos ao workflow básico.
-
-- **Passo 1: Criação de Transação**: Alguém (ex.: você) inicia uma ação, como transferir criptomoeda. Isso é assinado com uma chave privada (como uma senha criptografada) para provar autenticidade.
-- **Passo 2: Propagação na Rede**: A transação é enviada para a rede P2P, onde nós a recebem e verificam (ex.: se você tem saldo suficiente, evitando "gastar duas vezes" o mesmo dinheiro).
-- **Passo 3: Agrupamento em Bloco**: Transações válidas são agrupadas em um "bloco" por participantes especiais (mineradores ou validadores).
-- **Passo 4: Consenso e Validação**: A rede usa um mecanismo (ex.: Proof of Work) para concordar que o bloco é válido. Isso envolve resolver um quebra-cabeça computacional para "selar" o bloco.
-- **Passo 5: Encadeamento e Distribuição**: O bloco é adicionado à cadeia, e todos os nós atualizam suas cópias. Qualquer alteração posterior seria detectada imediatamente.
-
-**Diagrama de Workflow: Fluxo Geral de Funcionamento**
-
-```mermaid
-graph TD
-    A[Início: Criação de Transação<br>Assinatura com Chave Privada] --> B[Propagação na Rede P2P<br>Entra no Mempool]
-    B --> C[Validação pelos Nós<br>Checa Saldo e Autenticidade]
-    C --> D[Agrupamento em Bloco<br>Por Mineradores/Validadores]
-    D --> E[Consenso<br>Ex.: Proof of Work - Resolver Puzzle]
-    E --> F[Adição à Blockchain<br>Encadeamento com Hash]
-    F --> G[Fim: Distribuição e Imutabilidade<br>Todos os Nós Atualizam]
-```
-
-O "Mempool" é como uma fila de tarefas pendentes em um sistema operacional.
-
-## 2. Estrutura de uma Blockchain
+## 1. Estrutura de uma Blockchain
 
 A estrutura é uma "cadeia de blocos" (daí o nome "blockchain"). Cada bloco é como um arquivo em um diretório encadeado.
 
@@ -58,7 +33,7 @@ graph LR
 
 Cada caixa representa um bloco, e as setas mostram como os hashes conectam tudo, como links em uma lista encadeada em programação.
 
-## 3. Arquitetura de uma Blockchain
+## 2. Arquitetura de uma Blockchain
 
 A arquitetura é descentralizada, baseada em uma rede distribuída.
 
@@ -81,6 +56,30 @@ graph TD
     C --> D[Camada de Rede<br>Nós P2P - Distribuição Global]
     D --> E[Usuários e Dispositivos<br>Conexão via Internet]
 ```
+
+## 3. Como Funciona uma Blockchain? (Funcionamento Passo a Passo)
+
+O funcionamento gira em torno de transações que são agrupadas em blocos, validadas por consenso e encadeadas. Vamos ao workflow básico.
+
+- **Passo 1: Criação de Transação**: Alguém (ex.: você) inicia uma ação, como transferir criptomoeda. Isso é assinado com uma chave privada (como uma senha criptografada) para provar autenticidade.
+- **Passo 2: Propagação na Rede**: A transação é enviada para a rede P2P, onde nós a recebem e verificam (ex.: se você tem saldo suficiente, evitando "gastar duas vezes" o mesmo dinheiro).
+- **Passo 3: Agrupamento em Bloco**: Transações válidas são agrupadas em um "bloco" por participantes especiais (mineradores ou validadores).
+- **Passo 4: Consenso e Validação**: A rede usa um mecanismo (ex.: Proof of Work) para concordar que o bloco é válido. Isso envolve resolver um quebra-cabeça computacional para "selar" o bloco.
+- **Passo 5: Encadeamento e Distribuição**: O bloco é adicionado à cadeia, e todos os nós atualizam suas cópias. Qualquer alteração posterior seria detectada imediatamente.
+
+**Diagrama de Workflow: Fluxo Geral de Funcionamento**
+
+```mermaid
+graph TD
+    A[Início: Criação de Transação<br>Assinatura com Chave Privada] --> B[Propagação na Rede P2P<br>Entra no Mempool]
+    B --> C[Validação pelos Nós<br>Checa Saldo e Autenticidade]
+    C --> D[Agrupamento em Bloco<br>Por Mineradores/Validadores]
+    D --> E[Consenso<br>Ex.: Proof of Work - Resolver Puzzle]
+    E --> F[Adição à Blockchain<br>Encadeamento com Hash]
+    F --> G[Fim: Distribuição e Imutabilidade<br>Todos os Nós Atualizam]
+```
+
+O "Mempool" é como uma fila de tarefas pendentes em um sistema operacional.
 
 ## 4. Vamos praticar?
 
