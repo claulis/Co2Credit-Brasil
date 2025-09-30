@@ -83,8 +83,6 @@ O "Mempool" é como uma fila de tarefas pendentes em um sistema operacional.
 
 ## 4. Vamos praticar?
 
-Vou sugerir **uma atividade simples e interativa** que você pode fazer em minutos, usando ferramentas gratuitas online. Em seguida, indico **sites de monitoramento (block explorers)** que rastreiam blocos em formação ao vivo. Esses sites são como "painéis de controle" da blockchain, mostrando métricas em tempo real, como o tempo médio para formar um bloco (ex.: ~10 minutos no Bitcoin). Baseio-me em fontes confiáveis de exploradores de blockchain para garantir precisão.
-
 ### 4.1 Atividade Sugerida: "Monitore a Formação de Blocos do Bitcoin em Tempo Real" (Duração: 15-30 minutos)
 
 Essa atividade é para demonstrar o fluxo: transações → agrupamento → mineração/consenso → novo bloco. Você não precisa de software; basta um navegador web.
@@ -115,10 +113,8 @@ O objetivo é observar como blocos "se formam" a cada ~10 minutos, visualizando 
    - **Passo 3.4: Encadeamento**: Note como o novo bloco referencia o anterior via hash, formando a "cadeia".
 
 4. **Registre e Analise**:
-   - Anote o horário do último bloco e espere o próximo. Meça o tempo real vs. esperado (~10 min para Bitcoin).
-   - Perguntas para Reflexão: Por que alguns blocos demoram mais? (Dificuldade de mineração ajusta-se automaticamente.) Como o tamanho do mempool afeta as taxas de transação?
-   - **Extensão Educativa**: Compare com Ethereum (mais rápido) para discutir Proof of Stake vs. Proof of Work.
-
+   - Anote o horário do último bloco e espere o próximo. Meça o tempo real vs. esperado (~10 min para Bitcoin). Compare entre duas ou mais blockchain.
+  
 ### 4.2 Sites que Monitoram a Formação de Blocos em Tempo Real
 
 Existem dezenas de "block explorers" gratuitos e confiáveis que rastreiam blockchains públicas como Bitcoin, Ethereum e outras. Eles atualizam dados a cada poucos segundos, mostrando blocos em formação, mempools e métricas de rede. Aqui vai uma tabela com os melhores, selecionados por usabilidade e popularidade (baseado em fontes recentes).
