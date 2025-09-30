@@ -11,35 +11,15 @@ Uma **Árvore de Merkle** é uma estrutura de dados usada em blockchains (como B
 
 ## 1. Como Funciona uma Árvore de Merkle?
 
-Imagine um bloco com 4 transações (Tx1, Tx2, Tx3, Tx4). A Árvore de Merkle organiza essas transações assim:
+A Árvore de Merkle organiza as transações assim:
 
 1. **Hash das Transações**: Cada transação é transformada em um hash (ex.: usando SHA-256), que é como uma impressão digital única.
 2. **Pares de Hashes**: Os hashes são agrupados em pares, e cada par é combinado em um novo hash (hash dos filhos).
 3. **Construção da Árvore**: O processo repete, combinando pares de hashes até chegar a um único hash no topo, a **Raiz de Merkle**.
 4. **Uso na Blockchain**: A Raiz de Merkle vai para o cabeçalho do bloco. Para verificar se uma transação está no bloco, você só precisa de alguns hashes do caminho até a raiz, não todas as transações.
 
-- **Exemplo Prático**: Se você quer provar que Tx1 está no bloco, fornece o hash de Tx1, o hash de Tx2 (seu par), e os hashes intermediários até a raiz. Um nó leve recalcula a raiz e compara com a do bloco – se coincidir, Tx1 está confirmada.
 
-```mermaid
-graph TD
-    A[Raiz de Merkle<br>Hash: H1234] --> B[Hash 12<br>H(Tx1 + Tx2)]
-    A --> C[Hash 34<br>H(Tx3 + Tx4)]
-    B --> D[Hash Tx1<br>H(Tx1)]
-    B --> E[Hash Tx2<br>H(Tx2)]
-    C --> F[Hash Tx3<br>H(Tx3)]
-    C --> G[Hash Tx4<br>H(Tx4)]
-    D --> H[Transação 1<br>Ex.: Alice envia 1 BTC]
-    E --> I[Transação 2<br>Ex.: Bob envia 0.5 BTC]
-    F --> J[Transação 3<br>Ex.: Carol envia 2 BTC]
-    G --> K[Transação 4<br>Ex.: Dave envia 0.1 BTC]
-```
-
-
-- **Folhas (H a K)**: Cada transação (Tx1 a Tx4) é convertida em um hash (Hash Tx1 a Hash Tx4) usando uma função criptográfica como SHA-256.
-- **Nós Intermediários (B e C)**: Pares de hashes de transações são combinados (ex.: Hash Tx1 + Hash Tx2 = Hash 12) usando a mesma função de hash.
-- **Raiz de Merkle (A)**: O hash final (H1234) combina Hash 12 e Hash 34, resumindo todas as transações do bloco.
-- **Fluxo**: As setas apontam de cima para baixo, mas a construção é de baixo para cima (das transações à raiz), como em uma estrutura de dados de árvore binária.
-- **Uso Prático**: Para verificar Tx1, você precisa de Hash Tx1, Hash Tx2, Hash 34 e da Raiz de Merkle. Recalculando o caminho (Hash 12 = H(Hash Tx1 + Hash Tx2), então H1234 = H(Hash 12 + Hash 34)), confirma-se a inclusão de Tx1.
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/09f26b9f-782b-411c-826e-74b1f2260aa5" />
 
 ## 2. Benefícios da Árvore de Merkle
 
