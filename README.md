@@ -6,10 +6,11 @@
 | Stack | Resumo | Contatos |
 |-------|--------| --------  |
 | [![Ethereum](https://img.shields.io/badge/Ethereum-Visit%20Site-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)](https://ethereum.org/pt-br/) [![Solidity](https://img.shields.io/badge/Solidity-Blockchain%20Smart%20Contracts-363636?style=flat-square&logo=solidity&logoColor=white)](https://docs.soliditylang.org/) [![Powered by Remix](https://img.shields.io/badge/Powered_by-Remix_IDE-2E2E2E?style=flat-square&logo=ethereum&logoColor=white)](https://remix.ethereum.org/) | Oficina sobre fundamentos da blockchain, contratos inteligentes e aplicações inovadoras para sustentabilidade ambiental no setor público brasileiro. | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cláudio%20Ulisse-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/claudioulisse)
-
+<!--
 [![Semana de Inovação](https://img.shields.io/badge/Semana%20de%20Inovação-ENAP-FF6B35?style=flat-square&logo=book-open&logoColor=FF6B35)](https://semanadeinovacao.enap.gov.br/)
 [![Enap](https://img.shields.io/badge/Enap-Portal%20Oficial-024248?style=flat-square&logo=book-open&logoColor=white)](https://www.enap.gov.br/)
 ![Visualizações](https://komarev.com/ghpvc/?username=claulis&label=Visualiza%C3%A7%C3%B5es&color=blue&style=flat-square)
+-->
 
 **Prezado Servidor,**
 
